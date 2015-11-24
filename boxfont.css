@@ -230,3 +230,116 @@ hr[i]::before{
     content: '';
     top:0px;
 }
+
+
+hr[j]{
+    border:none;
+    display:inline-block;
+    position:relative;
+    float:left;
+    height:64px;
+    width:50px;
+    border-top:6px black solid;
+    margin-right:10px;
+
+}
+
+hr[j]::before{
+    border-right:5px black solid;
+    border-bottom:5px black solid;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px/50%;
+
+    width:23px;
+    height:64px;
+    position: absolute;
+    left:0px;
+    content: '';
+    top:0px;
+}
+
+hr[k]{
+    border:none;
+    display:inline-block;
+    position:relative;
+    float:left;
+    height:76px;
+    width:50px;
+    border-left:6px black solid;
+    margin-right:10px;
+
+}
+
+hr[k]::before{
+    border-top:6px black solid;
+    width:60px; 
+	height: 20px; 
+    position: absolute;
+    left:-4px;
+    content: '';
+    top:14px;
+    -ms-transform: rotate(-35deg); 
+    -webkit-transform: rotate(-35deg); 
+    transform: rotate(-35deg);
+}
+
+hr[k]::after{
+    border-top:6px black solid;
+    width:60px; 
+	height: 20px; 
+    position: absolute;
+    left:-12px;
+    content: '';
+    top:44px;
+    -ms-transform: rotate(55deg); 
+    -webkit-transform: rotate(55deg); 
+    transform: rotate(55deg);
+}
+
+hr[l]{
+    border:none;
+    display:inline-block;
+    position:relative;
+    float:left;
+    height:70px;
+    width:50px;
+    border:6px black solid;
+    border-right:0px;
+    border-top:0px;
+    margin-right:10px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:15px;
+}
+
+hr[m]{
+    border:none;
+    display:inline-block;
+    position:relative;
+    float:left;
+    height:70px;
+    width:27px;
+    border:6px black solid;
+    border-bottom:0px;
+    margin-right:10px;
+    border-bottom-right-radius:25px/20px;
+    border-top-right-radius:25px;
+    border-bottom-left-radius:0px;
+    border-top-left-radius:0px;
+}
+
+hr[m]::before{
+    border:6px black solid;
+    border-bottom:0px;
+    border-bottom-right-radius:0px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:25px/20px;
+    border-top-left-radius:25px;
+
+    width:27px;
+    height:70px;
+    position: absolute;
+    left:27px;
+    content: '';
+    top:-6px;
+}
