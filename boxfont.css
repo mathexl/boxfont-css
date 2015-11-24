@@ -544,3 +544,87 @@ hr[s]::after{
     
 
 }
+
+hr[t]{
+    border:none;
+    display:inline-block;
+    position:relative;
+    float:left;
+    height:64px;
+    width:50px;
+    border-top:6px black solid;
+    margin-right:10px;
+    margin-top:-16px;
+    top:-6px;
+
+}
+
+hr[t]::before{
+    border-right:5px black solid;
+
+
+    width:23px;
+    height:70px;
+    position: absolute;
+    left:0px;
+    content: '';
+    top:0px;
+}
+
+hr[u]{
+    border:none;
+    display:inline-block;
+    position:relative;
+    float:left;
+    height:70px;
+    width:50px;
+    border:6px black solid;
+    margin-right:10px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-top:none;
+}
+
+
+hr[v]{
+border:none;
+    display:inline-block;
+    position:relative;
+    float:left;
+    height:70px;
+    width:50px;
+    margin-right:10px;
+
+    border-top:none;
+
+}
+
+
+
+hr[v]::after{
+    border-top:6px black solid;
+    width:80px; 
+	height: 20px; 
+    position: absolute;
+    left:10px;
+    content: '';
+    top:22px;
+    -ms-transform: rotate(-70deg); 
+    -webkit-transform: rotate(-70deg); 
+    transform: rotate(-70deg);
+    border-bottom-left-radius: 15px;
+
+}
+
+hr[v]::before{
+    border-top:6px black solid;
+    width:80px; 
+	height: 20px; 
+    position: absolute;
+    left:-37px;
+    content: '';
+    top:22px;
+    -ms-transform: rotate(70deg); 
+    -webkit-transform: rotate(70deg); 
+    transform: rotate(70deg);
+}
